@@ -17,7 +17,6 @@ terraform.tfstate.*
 *.key
 terraform.tfvars
 !terraform.tfvars.example
-!my-ec2.pem
 
 # IDE and OS
 .vscode/
