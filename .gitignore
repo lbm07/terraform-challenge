@@ -1,0 +1,36 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform directories
+.terraform/
+.terraform
+
+# Sensitive files
+*.ppk
+*.pem
+*.key
+terraform.tfvars
+!terraform.tfvars.example
+!my-ec2.pem
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS-specific
+Thumbs.db
+terraform.exe
+my-ec2-pub.pub
